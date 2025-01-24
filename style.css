@@ -1,0 +1,75 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  color: #333;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6pSx 15px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  max-width: 90%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.container h1 {
+  font-size: 1.4rem; /* Slightly larger for emphasis */
+  font-weight: bold; /* Professional look */
+  color: #333; /* Darker color for contrast */
+  margin: 0;
+  padding: 0 10px; /* Add padding to avoid overflow */
+  line-height: 1.6; /* Improve spacing for readability */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background: linear-gradient(to right, #ff758c, #ff7eb3); /* Gradient matching theme */
+  -webkit-background-clip: text; /* Clip gradient to text */
+  -webkit-text-fill-color: transparent; /* Make the background gradient visible */
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#yes-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+#yes-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#no-btn {
+  background-color: #f44336;
+  color: white;
+  position: relative;
+}
+
+#no-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hidden {
+  display: none;
+}
