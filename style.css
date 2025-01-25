@@ -30,7 +30,7 @@ body {
   padding: 0 10px; /* Add padding to avoid overflow */
   line-height: 1.6; /* Improve spacing for readability */
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  background: linear-gradient(to right, #ff758c, #ff7eb3); /* Gradient matching theme */
+  background: linear-gradient(to right, #fba0af, #e995b8); /* Gradient matching theme */
   -webkit-background-clip: text; /* Clip gradient to text */
   -webkit-text-fill-color: transparent; /* Make the background gradient visible */
 }
